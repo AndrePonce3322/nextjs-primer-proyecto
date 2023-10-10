@@ -1,3 +1,9 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "prettier",
+    "./node_modules/standard/eslintrc.json"
+  ],
+  "plugins": [
+    "prettier"
+  ]
 }
